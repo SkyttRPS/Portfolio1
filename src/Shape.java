@@ -3,7 +3,7 @@
  *  The class implements the ShapeMethods interface.
  */
 
-public abstract class Shape implements ShapeMethods{
+public abstract class Shape implements ShapeMethods {
     double x; // To hold the x position of the shape
     double y; // TO hold the y position of the shape
 
