@@ -1,7 +1,7 @@
 public interface ShapeMethods {
 
-    public double computeArea();
-    public double computeCircumference();
+    public double getArea();
+    public double getCircumference();
     public double returnCenter();
     public double returnDistance();
 
