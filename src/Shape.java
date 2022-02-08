@@ -1,4 +1,4 @@
-public class Shape {
+public abstract class Shape implements ShapeMethods{
     private double xPos;
     private double yPos;
 
