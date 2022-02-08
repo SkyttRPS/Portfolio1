@@ -4,6 +4,7 @@ public interface ShapeMethods {
     double getCircumference();
     double returnCenter();
     double returnDistance();
+    // boolean isInside(); not implemented yet
 
     /* Future behavior:
     - tell if one shape is inside another shape

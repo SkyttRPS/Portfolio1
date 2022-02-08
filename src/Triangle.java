@@ -22,8 +22,10 @@ class Triangle extends Shape {
 
     @Override
     public double returnCenter() {
-        double x1, y1;
-        return 0;
+        p.setX(x);
+        p.setY(y);
+
+        return getArea();
     }
 
     @Override
