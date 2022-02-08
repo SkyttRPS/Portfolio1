@@ -9,17 +9,21 @@ class Rectangle extends Shape {
         this.width = width;
     }
 
+    @Override
     public double getArea() {
         return height * width;
     }
 
+    @Override
     public double getCircumference() {
         return 2 * (height + width);
     }
 
     @Override
     public double returnCenter() {
-        return 0;
+        p.setX(x+(width/2));
+        p.setY(y+(height/2));
+        return getArea();
     }
 
     @Override

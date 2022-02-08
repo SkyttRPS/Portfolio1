@@ -1,20 +1,28 @@
 class Triangle extends Shape {
-    public Triangle(double x, double y) {
+    public double a, b, c;
+
+    public Triangle(double x, double y, double a, double b, double c) {
         super(x, y);
+        this.a = a;
+        this.b = b;
+        this.c = c;
     }
 
     @Override
+    // Using herons formula where s is the semiperimeter given as s = (a+b+c)/2
     public double getArea() {
-        return 0;
+        double s = (a+b+c)/2;
+        return Math.sqrt(s * (s-a) * (s-b) * (s-c));
     }
 
     @Override
     public double getCircumference() {
-        return 0;
+        return a + b + c;
     }
 
     @Override
     public double returnCenter() {
+        double x1, y1;
         return 0;
     }
 

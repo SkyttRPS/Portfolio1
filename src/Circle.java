@@ -1,22 +1,35 @@
 class Circle extends Shape{
+    private double radius;
 
-    public Circle(double x, double y) {
+    public Circle(double x, double y, double radius) {
         super(x, y);
+        this.radius = radius;
+    }
+
+    public double getR() {
+        return radius;
+    }
+
+    public void setR(double radius) {
+        this.radius = radius;
     }
 
     @Override
     public double getArea() {
-        return 0;
+        return Math.PI * radius * radius;
     }
 
     @Override
     public double getCircumference() {
-        return 0;
+        return 2 * Math.PI * radius;
     }
 
     @Override
     public double returnCenter() {
-        return 0;
+        p.setX(x);
+        p.setY(y);
+
+        return getArea();
     }
 
     @Override

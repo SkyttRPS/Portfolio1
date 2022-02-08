@@ -1,9 +1,9 @@
 public interface ShapeMethods {
 
-    public double getArea();
-    public double getCircumference();
-    public double returnCenter();
-    public double returnDistance();
+    double getArea();
+    double getCircumference();
+    double returnCenter();
+    double returnDistance();
 
     /* Future behavior:
     - tell if one shape is inside another shape
