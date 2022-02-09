@@ -1,8 +1,10 @@
-class Circle extends Shape{
-    private double radius;
+import java.awt.*;
 
-    public Circle(double x, double y, double radius) {
-        super(x, y);
+class Circle extends Shape{
+    private final float radius;
+
+    public Circle(float radius) {
+        super();
         this.radius = radius;
     }
 
@@ -11,25 +13,34 @@ class Circle extends Shape{
     }
 
     @Override
-    public double getArea() {
-        return Math.PI * radius * radius;
+    public float getArea() {
+        float area;
+        area = (float) (Math.PI * radius * radius);
+        return area;
     }
 
     @Override
-    public double getCircumference() {
-        return 2 * Math.PI * radius;
+    public float getCircumference() {
+        float circumference;
+        circumference = (float) (2 * Math.PI * radius);
+        return circumference;
     }
 
     @Override
-    public double returnCenter() {
-        p.setX(x);
-        p.setY(y);
-
-        return getArea();
+    public Point getCenter() {
+        Point p = new Point();
+        p.setLocation(radius, radius);
+        return p;
     }
 
     @Override
-    public double returnDistance() {
-        return 0;
+    public boolean isInside(float x, float y) {
+        if(x >= 0 && x <= radius && y >= 0 && y <= radius ){
+            System.out.println("The point is inside the shape");
+            return true;
+        } else {
+            System.out.println("The point is outside the shape");
+            return false;
+        }
     }
 }

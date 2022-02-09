@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6a06a1-1d32-4722-aa75-df206d12683d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Portfolio 1/ShapeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SD_exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SD_exam.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Circle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Point.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/ShapeMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SD_exam/CircleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SD_exam/RectangleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SD_exam/ShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SD_exam/ShapeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Point.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/ShapeMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Portfolio 1/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Portfolio 1/ShapeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +61,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -65,7 +75,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShapeTest.testGetCircumference">
+  <component name="RunManager" selected="JUnit.ShapeTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SD_exam" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -75,35 +92,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircleTest.testReturnDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SD_exam" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircleTest" />
-      <option name="METHOD_NAME" value="testReturnDistance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SD_exam" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RectangleTest.testGetArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SD_exam" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
-      <option name="METHOD_NAME" value="testGetArea" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,21 +126,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShapeTest.testReturnCenter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SD_exam" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShapeTest" />
+      <option name="METHOD_NAME" value="testReturnCenter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest.testReturnDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SD_exam" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShapeTest" />
+      <option name="METHOD_NAME" value="testReturnDistance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.CircleTest.testReturnDistance" />
       <item itemvalue="JUnit.ShapeTest" />
-      <item itemvalue="JUnit.RectangleTest" />
-      <item itemvalue="JUnit.RectangleTest.testGetArea" />
       <item itemvalue="JUnit.ShapeTest.testGetArea" />
       <item itemvalue="JUnit.ShapeTest.testGetCircumference" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.ShapeTest.testReturnCenter" />
+      <item itemvalue="JUnit.ShapeTest.testReturnDistance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShapeTest.testReturnDistance" />
+        <item itemvalue="JUnit.ShapeTest.testReturnCenter" />
         <item itemvalue="JUnit.ShapeTest.testGetCircumference" />
         <item itemvalue="JUnit.ShapeTest.testGetArea" />
-        <item itemvalue="JUnit.RectangleTest.testGetArea" />
-        <item itemvalue="JUnit.RectangleTest" />
-        <item itemvalue="JUnit.CircleTest.testReturnDistance" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +176,7 @@
       <workItem from="1644299114783" duration="978000" />
       <workItem from="1644321101041" duration="3737000" />
       <workItem from="1644334925598" duration="1782000" />
-      <workItem from="1644376054512" duration="6557000" />
+      <workItem from="1644376054512" duration="20289000" />
     </task>
     <servers />
   </component>

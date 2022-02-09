@@ -1,33 +1,46 @@
+import java.awt.*;
+
 class Rectangle extends Shape {
 
-    private final double height;
-    private final double width;
+    float x1, y1, centerX, centerY; //
 
-    public Rectangle(double x, double y, double height, double width) {
-        super(x, y);
-        this.height = height;
-        this.width = width;
+    public Rectangle(float x1, float y1) {
+        super();
+        this.x1 = x1;
+        this.y1 = y1;
     }
 
     @Override
-    public double getArea() {
-        return height * width;
+    public float getArea() {
+        float area;
+        area = this.x1 * this.y1;
+        return area;
     }
 
     @Override
-    public double getCircumference() {
-        return 2 * (height + width);
+    public float getCircumference() {
+        float circumference;
+        circumference = 2 * (x1 + y1);
+        return circumference;
     }
 
     @Override
-    public double returnCenter() {
-        p.setX(x+(width/2));
-        p.setY(y+(height/2));
-        return getArea();
+    public Point getCenter() {
+        Point point = new Point();
+        this.centerX = x1/2;
+        this.centerY = y1/2;
+        point.setLocation(centerX, centerY);
+        return point;
     }
 
     @Override
-    public double returnDistance() {
-        return 0;
+    public boolean isInside(float x, float y) {
+        if(x >= 0 && x <= x1 && y >= 0 && y <= y1 ){
+            System.out.println("The point is inside the shape");
+            return true;
+        } else {
+            System.out.println("The point is outside the shape");
+            return false;
+        }
     }
 }
