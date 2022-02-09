@@ -9,7 +9,7 @@ class ShapeTest {
     Triangle triangle = new Triangle(1,2, 3, -4, 6,-7);
 
     @Test
-    void testGetArea() {
+    void testGetArea() { // Unit test of expected area values against the values given by the methods
         System.out.println("Areas:");
         // Rectangle test
         float rTest = 4 * 6;
@@ -22,16 +22,14 @@ class ShapeTest {
         System.out.println("Circle area is " + circle.getArea());
 
         // Triangle test
-        triangle.getSides();
-        float s = (triangle.side1 + triangle.side2 + triangle.side3)/2;
-        float tTest = (float) Math.sqrt(s*(s-triangle.side1)*(s-triangle.side2)*(s-triangle.side3));
+        float tTest = (float) Math.abs((triangle.x1 * (triangle.y2 - triangle.y3) + triangle.x2 * (triangle.y3 - triangle.y1) + triangle.x3 * (triangle.y1 - triangle.y2)) / 2.0);
         assertEquals(tTest, triangle.getArea());
         System.out.println("Triangle area is " + triangle.getArea());
         System.out.println();
     }
 
     @Test
-    void testGetCircumference() {
+    void testGetCircumference() { // Unit test of expected circumference values against the values given by the methods
         System.out.println("Circumferences:");
         // Rectangle test
         float rTest = 2 * (4 + 6);
@@ -52,7 +50,7 @@ class ShapeTest {
     }
 
     @Test
-    void testReturnCenter() {
+    void testReturnCenter() { // Unit test of expected center point values against the values given by the methods
         System.out.println("Center points:");
         // Rectangle test
         Point rTest = new Point(3,2);
@@ -72,9 +70,10 @@ class ShapeTest {
     }
 
     @Test
-    void testReturnDistance() {
+    void testReturnDistance() { // Unit test of expected distance values against the values given by the methods
         System.out.println("Distance test:");
-        rect.getDistance(circle);
+        float testDistance = 2.236068f;
+        assertEquals(testDistance, rect.getDistance(circle)); // A single test between two of the testing shapes
         System.out.println();
     }
 }

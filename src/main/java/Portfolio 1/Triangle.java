@@ -3,6 +3,7 @@ import java.awt.*;
 class Triangle extends Shape {
     public float x1, y1, x2, y2, x3, y3, side1, side2, side3;
 
+    // Triangle Constructor
     public Triangle(float x1, float y1, float x2, float y2, float x3, float y3) {
         super();
         this.x1 = x1;
@@ -25,32 +26,48 @@ class Triangle extends Shape {
     }
 
     @Override
+    // Method for calculating the area of a Triangle
     public float getArea() {
-        float area;
-        float s = getCircumference()/2;
-        area = (float) Math.sqrt(s*(s-this.side1)*(s-this.side2)*(s-this.side3));
+        float area = (float) Math.abs((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2.0);
+        System.out.println("Area of the triangle is: " + area + " cm^2");
         return area;
     }
 
     @Override
+    // Method for calculating the circumference of a Triangle
     public float getCircumference() {
         float circumference;
         getSides();
         circumference = this.side1+this.side2+this.side3;
+        System.out.println("The circumference of the triangle is: " + circumference + " cm");
         return circumference;
     }
 
     @Override
+    // Method for calculating the center point of a Triangle
     public Point getCenter() {
-        Point p = new Point();
+        Point point = new Point();
         float centerX = (x1 + x2 + x3) / 3;
         float centerY = (y1 + y2 + y3) / 3;
-        p.setLocation(centerX, centerY);
-        return p;
+        point.setLocation(centerX, centerY);
+        System.out.println("The center point of the triangle is: " + point);
+        return point;
     }
 
     @Override
+    // Method for catching if a point is inside the shape or not.
     public boolean isInside(float x, float y) {
-        return false;
+        float area1 = Math.abs (x1 * (y2 - y3) + x2 * (y3 - x1) + x3 * (y1 - y2));
+        float area2 = Math.abs (x1 * (y2 - y) + x2 * (y - x1) + x * (y1 - y2));
+        float area3 = Math.abs (x1 * (y - y3) + x * (y3 - x1) + x3 * (y1 - y));
+        float area4 = Math.abs (x1 * (y2 - y3) + x2 * (y3 - y) + x3 * (y1 - y2));
+
+        if(area1 == area2 + area3 + area4) {
+            System.out.println("This point is inside the triangle");
+            return true;
+        } else {
+            System.out.println("This point is outside the triangle");
+            return false;
+        }
     }
 }
