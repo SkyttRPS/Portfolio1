@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 4. isInside(); for telling if a point is inside or outside of a shape
  */
 
-public class Main {
+public class Portfolio1 {
 
     public static void main(String[] args) {
         // Create an array of six Shape objects
