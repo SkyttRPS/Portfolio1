@@ -1,6 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("The application is running");
+
         Shape[] shapes = new Shape[3];
 
         shapes[0] = new Rectangle(2.0, 1.0, 4.0,6.0);

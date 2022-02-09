@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6a06a1-1d32-4722-aa75-df206d12683d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Portfolio 1/ShapeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SD_exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SD_exam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,10 +34,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="Shape" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/Portfolio 1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -30,22 +54,107 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="Shape" />
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShapeTest.testGetCircumference">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleTest.testReturnDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SD_exam" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CircleTest" />
+      <option name="METHOD_NAME" value="testReturnDistance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SD_exam" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RectangleTest.testGetArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SD_exam" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
+      <option name="METHOD_NAME" value="testGetArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="SD_exam" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShapeTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest.testGetArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SD_exam" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShapeTest" />
+      <option name="METHOD_NAME" value="testGetArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest.testGetCircumference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SD_exam" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShapeTest" />
+      <option name="METHOD_NAME" value="testGetCircumference" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CircleTest.testReturnDistance" />
+      <item itemvalue="JUnit.ShapeTest" />
+      <item itemvalue="JUnit.RectangleTest" />
+      <item itemvalue="JUnit.RectangleTest.testGetArea" />
+      <item itemvalue="JUnit.ShapeTest.testGetArea" />
+      <item itemvalue="JUnit.ShapeTest.testGetCircumference" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShapeTest.testGetCircumference" />
+        <item itemvalue="JUnit.ShapeTest.testGetArea" />
+        <item itemvalue="JUnit.RectangleTest.testGetArea" />
+        <item itemvalue="JUnit.RectangleTest" />
+        <item itemvalue="JUnit.CircleTest.testReturnDistance" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,6 +168,7 @@
       <workItem from="1644299114783" duration="978000" />
       <workItem from="1644321101041" duration="3737000" />
       <workItem from="1644334925598" duration="1782000" />
+      <workItem from="1644376054512" duration="6557000" />
     </task>
     <servers />
   </component>

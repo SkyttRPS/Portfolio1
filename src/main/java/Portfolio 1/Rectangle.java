@@ -1,7 +1,7 @@
 class Rectangle extends Shape {
 
-    private double height;
-    private double width;
+    private final double height;
+    private final double width;
 
     public Rectangle(double x, double y, double height, double width) {
         super(x, y);
