@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6a06a1-1d32-4722-aa75-df206d12683d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SD_exam/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SD_exam/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SD_exam/ShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SD_exam/ShapeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 1/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio 1/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Portfolio 1/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Portfolio 1/ShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SD_exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Porfolio1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 2/Portfolio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio 3/Portfolio3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +52,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="Shape" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/Portfolio 1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -79,24 +73,26 @@
   <component name="RunManager" selected="Application.Portfolio2">
     <configuration name="Portfolio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Portfolio2" />
-      <module name="SD_exam" />
+      <module name="Porfolio1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ShapeTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="SD_exam" />
+      <module name="Porfolio1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShapeTest" />
       <option name="METHOD_NAME" value="" />
@@ -106,7 +102,7 @@
       </method>
     </configuration>
     <configuration name="ShapeTest.testGetArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SD_exam" />
+      <module name="Porfolio1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShapeTest" />
       <option name="METHOD_NAME" value="testGetArea" />
@@ -116,7 +112,7 @@
       </method>
     </configuration>
     <configuration name="ShapeTest.testIsInside" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SD_exam" />
+      <module name="Porfolio1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShapeTest" />
       <option name="METHOD_NAME" value="testIsInside" />
@@ -126,7 +122,7 @@
       </method>
     </configuration>
     <configuration name="ShapeTest.testReturnCenter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SD_exam" />
+      <module name="Porfolio1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShapeTest" />
       <option name="METHOD_NAME" value="testReturnCenter" />
@@ -136,7 +132,7 @@
       </method>
     </configuration>
     <configuration name="ShapeTest.testReturnDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SD_exam" />
+      <module name="Porfolio1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShapeTest" />
       <option name="METHOD_NAME" value="testReturnDistance" />
@@ -146,12 +142,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Portfolio2" />
       <item itemvalue="JUnit.ShapeTest" />
       <item itemvalue="JUnit.ShapeTest.testGetArea" />
       <item itemvalue="JUnit.ShapeTest.testReturnCenter" />
       <item itemvalue="JUnit.ShapeTest.testReturnDistance" />
       <item itemvalue="JUnit.ShapeTest.testIsInside" />
-      <item itemvalue="Application.Portfolio2" />
     </list>
     <recent_temporary>
       <list>
@@ -176,6 +172,7 @@
       <workItem from="1644321101041" duration="3737000" />
       <workItem from="1644334925598" duration="1782000" />
       <workItem from="1644376054512" duration="26851000" />
+      <workItem from="1644403612492" duration="1761000" />
     </task>
     <servers />
   </component>

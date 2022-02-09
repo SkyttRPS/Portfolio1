@@ -1,5 +1,3 @@
-import java.util.Objects;
-import java.util.Scanner;
 
 /*
  * In the main method we want to generate some shapes and try out our methods.
@@ -11,7 +9,7 @@ import java.util.Scanner;
  * 4. isInside(); for telling if a point is inside or outside of a shape
  */
 
-public class Portfolio1 {
+public class Main {
 
     public static void main(String[] args) {
         // Create an array of six Shape objects
